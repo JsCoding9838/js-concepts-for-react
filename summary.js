@@ -20,7 +20,7 @@ ES6
 3.3 multiple parameters()
 3.4 multi line
 4. destructuring : object destructuring array destructuring
-5 object shorthand
+5 object declaration shorthand
 6. function parameter defult value
 7. Optional chaining (?.)
 --------------------------------
@@ -34,12 +34,32 @@ Browser API
 
 Others
 1. array: map, forEach, filter, find
-2. termary operator
+2. ternary operator
 3. logical and logical or && ||
 4. JSON (stringify, parse)
+5. +, ternary operator
 
 
 */
 
 
-// 8: 43 minutes videos
+const x = 50;
+const y = 100;
+const obj = {
+    x: x,
+    y: y
+};
+
+// shortChut
+const obj1 = {x, y};
+
+
+const name = 'Solimullah';
+const area = 'Dhaka';
+
+const nobab = {
+    name: name,
+    area: area
+}
+// shortChut
+const nobab2 = {name, area};
